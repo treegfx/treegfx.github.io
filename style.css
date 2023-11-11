@@ -1,0 +1,148 @@
+.desktop {
+  background-color: #272727;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .overlap-wrapper {
+  background-color: #272727;
+  width: 2560px;
+  height: 1440px;
+}
+
+.desktop .overlap {
+  position: relative;
+  width: 607px;
+  height: 272px;
+  top: 551px;
+  left: 41px;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 607px;
+  height: 272px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 607px;
+  top: 0;
+  left: 0;
+  font-family: "Inconsolata-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .ellipse {
+  top: 169px;
+  left: 13px;
+  background-color: #d24747;
+  position: absolute;
+  width: 99px;
+  height: 99px;
+  border-radius: 49.5px;
+}
+
+.desktop .youtube-logo {
+  position: absolute;
+  width: 107px;
+  height: 107px;
+  top: 165px;
+  left: 9px;
+  object-fit: cover;
+}
+
+.desktop .div {
+  position: absolute;
+  width: 99px;
+  height: 99px;
+  top: 169px;
+  left: 146px;
+  background-color: #d9d9d9;
+  border-radius: 49.5px;
+}
+
+.desktop .ellipse-2 {
+  top: 0;
+  left: 0;
+  background-color: #414ee1;
+  position: absolute;
+  width: 99px;
+  height: 99px;
+  border-radius: 49.5px;
+}
+
+.desktop .discord-color-logo {
+  position: absolute;
+  width: 56px;
+  height: 43px;
+  top: 28px;
+  left: 22px;
+  object-fit: cover;
+}
+
+.desktop .overlap-group-2 {
+  position: absolute;
+  width: 99px;
+  height: 99px;
+  top: 169px;
+  left: 279px;
+  background-color: #6dd189;
+  border-radius: 49.5px;
+}
+
+.desktop .rectangle {
+  width: 36px;
+  height: 46px;
+  top: 27px;
+  left: 32px;
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.desktop .polygon {
+  position: absolute;
+  width: 19px;
+  height: 11px;
+  top: 27px;
+  left: 22px;
+}
+
+.desktop .rectangle-2 {
+  width: 20px;
+  height: 7px;
+  top: 39px;
+  left: 40px;
+  background-color: #6dd189;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.desktop .rectangle-3 {
+  width: 20px;
+  height: 7px;
+  top: 49px;
+  left: 40px;
+  background-color: #6dd189;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.desktop .rectangle-4 {
+  width: 20px;
+  height: 7px;
+  top: 59px;
+  left: 40px;
+  background-color: #6dd189;
+  position: absolute;
+  border-radius: 5px;
+}
