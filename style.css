@@ -14,135 +14,171 @@
 
 .desktop .overlap {
   position: relative;
-  width: 607px;
-  height: 272px;
-  top: 551px;
-  left: 41px;
+  width: 648px;
+  height: 1440px;
 }
 
-.desktop .overlap-group {
-  position: absolute;
-  width: 607px;
-  height: 272px;
+.desktop .rectangle {
+  width: 488px;
+  height: 1440px;
   top: 0;
+  background-color: #000000;
+  position: absolute;
   left: 0;
 }
 
 .desktop .text-wrapper {
   position: absolute;
   width: 607px;
-  top: 0;
-  left: 0;
+  top: 551px;
+  left: 41px;
   font-family: "Inconsolata-Regular", Helvetica;
   font-weight: 400;
-  color: #ffffff;
-  font-size: 128px;
+  color: #ababab;
+  font-size: 64px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.desktop .ellipse {
-  top: 169px;
-  left: 13px;
-  background-color: #d24747;
+.desktop .button-yt {
   position: absolute;
-  width: 99px;
-  height: 99px;
-  border-radius: 49.5px;
+  width: 414px;
+  height: 92px;
+  top: 695px;
+  left: 41px;
+  background-color: #ff5c5c;
+  border-radius: 25px;
 }
 
-.desktop .youtube-logo {
+.desktop .button-dc {
   position: absolute;
-  width: 107px;
-  height: 107px;
-  top: 165px;
-  left: 9px;
-  object-fit: cover;
+  width: 414px;
+  height: 92px;
+  top: 809px;
+  left: 41px;
+  background-color: #5865f2;
+  border-radius: 25px;
 }
 
-.desktop .div {
+.desktop .button-works {
   position: absolute;
-  width: 99px;
-  height: 99px;
-  top: 169px;
-  left: 146px;
-  background-color: #d9d9d9;
-  border-radius: 49.5px;
-}
-
-.desktop .ellipse-2 {
-  top: 0;
-  left: 0;
-  background-color: #414ee1;
-  position: absolute;
-  width: 99px;
-  height: 99px;
-  border-radius: 49.5px;
+  width: 414px;
+  height: 92px;
+  top: 923px;
+  left: 41px;
+  background-color: #75ae78;
+  border-radius: 25px;
 }
 
 .desktop .discord-color-logo {
   position: absolute;
   width: 56px;
   height: 43px;
-  top: 28px;
-  left: 22px;
+  top: 833px;
+  left: 371px;
   object-fit: cover;
 }
 
-.desktop .overlap-group-2 {
+.desktop .img {
   position: absolute;
-  width: 99px;
-  height: 99px;
-  top: 169px;
-  left: 279px;
-  background-color: #6dd189;
-  border-radius: 49.5px;
+  width: 141px;
+  height: 103px;
+  top: 689px;
+  left: 328px;
+  object-fit: cover;
 }
 
-.desktop .rectangle {
-  width: 36px;
-  height: 46px;
-  top: 27px;
-  left: 32px;
-  background-color: #ffffff;
+.desktop .group {
   position: absolute;
-  border-radius: 5px;
+  width: 49px;
+  height: 46px;
+  top: 946px;
+  left: 389px;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  width: 47px;
+  height: 45px;
+  top: 1px;
+}
+
+.desktop .div {
+  width: 32px;
+  height: 41px;
+  top: 4px;
+  background-color: #426243;
+  position: absolute;
+  left: 0;
 }
 
 .desktop .polygon {
   position: absolute;
-  width: 19px;
-  height: 11px;
-  top: 27px;
-  left: 22px;
+  width: 29px;
+  height: 15px;
+  top: 4px;
+  left: 17px;
 }
 
-.desktop .rectangle-2 {
-  width: 20px;
-  height: 7px;
-  top: 39px;
-  left: 40px;
-  background-color: #6dd189;
+.desktop .polygon-2 {
   position: absolute;
-  border-radius: 5px;
+  width: 22px;
+  height: 22px;
+  top: 0;
+  left: 14px;
 }
 
-.desktop .rectangle-3 {
-  width: 20px;
-  height: 7px;
-  top: 49px;
-  left: 40px;
-  background-color: #6dd189;
+.desktop .text-wrapper-2 {
   position: absolute;
-  border-radius: 5px;
+  width: 176px;
+  top: 841px;
+  left: 19px;
+  font-family: "Inconsolata-Regular", Helvetica;
+  font-weight: 400;
+  color: #313988;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-.desktop .rectangle-4 {
-  width: 20px;
-  height: 7px;
-  top: 59px;
-  left: 40px;
-  background-color: #6dd189;
+.desktop .text-wrapper-3 {
   position: absolute;
-  border-radius: 5px;
+  width: 176px;
+  top: 953px;
+  left: 19px;
+  font-family: "Inconsolata-Regular", Helvetica;
+  font-weight: 400;
+  color: #426243;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  width: 176px;
+  top: 727px;
+  left: 19px;
+  font-family: "Inconsolata-Regular", Helvetica;
+  font-weight: 400;
+  color: #8f3434;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .p {
+  position: absolute;
+  width: 455px;
+  top: 635px;
+  left: 41px;
+  font-family: "Inconsolata-Regular", Helvetica;
+  font-weight: 400;
+  color: #6e6e6e;
+  font-size: 24px;
+  letter-spacing: -1.2px;
+  line-height: normal;
 }
