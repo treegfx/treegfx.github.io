@@ -1,0 +1,23 @@
+.iphone-se-1,
+.treegfx {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.treegfx {
+  width: 254px;
+  height: 84px;
+  flex-shrink: 0;
+}
+.iphone-se-1 {
+  background-color: #fff;
+  width: 100%;
+  height: 568px;
+  overflow: hidden;
+  flex-direction: column;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: var(--font-space-grotesk);
+}
