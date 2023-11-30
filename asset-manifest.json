@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/treegfx.github.io/static/css/main.0a193c26.css",
+    "main.js": "/treegfx.github.io/static/js/main.85508102.js",
+    "static/js/787.b6f1bb8f.chunk.js": "/treegfx.github.io/static/js/787.b6f1bb8f.chunk.js",
+    "index.html": "/treegfx.github.io/index.html",
+    "main.0a193c26.css.map": "/treegfx.github.io/static/css/main.0a193c26.css.map",
+    "main.85508102.js.map": "/treegfx.github.io/static/js/main.85508102.js.map",
+    "787.b6f1bb8f.chunk.js.map": "/treegfx.github.io/static/js/787.b6f1bb8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a193c26.css",
+    "static/js/main.85508102.js"
+  ]
+}
