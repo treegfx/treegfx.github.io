@@ -1,0 +1,57 @@
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+body {
+    background-color: #111111;
+}
+
+h1 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #ffffff;
+}
+h2 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    
+    color: #ffffff;
+    
+}
+h3 {
+    color: brown;
+    font-family: Inconsolata;
+    font-weight: 900;
+}
+
+a:link{
+    color: white;
+}
+
+img{
+    width: 64vh;
+    
+}
