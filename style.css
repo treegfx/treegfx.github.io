@@ -41,8 +41,13 @@ h2 {
     color: #ffffff;
     
 }
+h5 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #ffffff;
+}
 h3 {
-    color: brown;
+    color: white;
     font-family: Inconsolata;
     font-weight: 900;
 }
