@@ -1,4 +1,4 @@
-# mod_rewrite start (real)
+# mod_rewrite start (real) g
 
 RewriteEngine on
 
