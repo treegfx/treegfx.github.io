@@ -39,8 +39,10 @@ h1 {
 }
 
 @keyframes spinner {
+    from: {transform: rotate(360deg)}
     to: {transform: rotate(360deg)}
 }
+
 h2 {
     font-family: Inconsolata;
     font-weight: 400;
