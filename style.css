@@ -39,8 +39,8 @@ h1 {
 }
 
 @keyframes spinner {
-    from: {transform: rotate(360deg)}
-    to: {transform: rotate(360deg)}
+    from: {transform: rotate(360deg);}
+    to: {transform: rotate(360deg);}
 }
 
 h2 {
