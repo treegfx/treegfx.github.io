@@ -74,6 +74,7 @@ a:link{
 }
 
 img{
-    width: 64vh;
+    width: 100%;
+    max-width: 64vh;
     
 }
