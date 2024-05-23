@@ -47,11 +47,35 @@ h2 {
 }
 .title h1{
     line-height: 30px;
+    font-weight: 500;
+    /*background: linear-gradient(
+      to right,
+      #308046,
+      #26eb5a,
+      #32a852,
+      #9cd9ac,
+      #308046
+      
+    );*/
+    background: linear-gradient(to right, #ffffff, #737373, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: bg 2s infinite linear;
+}
+
+@keyframes bg {
+    from {
+        background-position: 200% center;
+    }
+    to {
+        background-position: 0% center;
+    }
 }
 .title img {
-    float: left;
-    height: 32px;
-    width: 64px;
+    float: center;
+    height: 20px;
+    width: 50px;
 }
 h4 {
     font-family: Inconsolata;
@@ -76,5 +100,4 @@ a:link{
 img{
     width: 100%;
     max-width: 64vh;
-    
 }
