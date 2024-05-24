@@ -15,7 +15,7 @@ a:hover {
     color: white;
     background-color: transparent;
     text-decoration: underline;
-    cursor:crosshair;
+    cursor:vertical-text;
 }
 
 a:active {
@@ -28,6 +28,7 @@ a:active {
 
 body {
     background-color: #111111;
+    cursor: text;
 }
 
 h1 {
