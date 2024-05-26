@@ -73,6 +73,16 @@ h2 {
         background-position: 0% center;
     }
 }
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
 .title img {
     float: center;
     height: 20px;
@@ -92,6 +102,7 @@ h3 {
     color: white;
     font-family: Inconsolata;
     font-weight: 900;
+    animation: scroll 20s infinite linear;
 }
 
 a:link{
@@ -101,4 +112,17 @@ a:link{
 img{
     width: 100%;
     max-width: 64vh;
+}
+.disclaimer {
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    box-sizing: content-box;
+    background-color: white; 
+}
+.disclaimer h2 {
+    white-space: nowrap;
+    animation: scroll 35s infinite linear;
+    margin: 0;
+    color: black;
 }
