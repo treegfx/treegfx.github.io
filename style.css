@@ -113,16 +113,3 @@ img{
     width: 100%;
     max-width: 64vh;
 }
-.disclaimer {
-    display: flex;
-    justify-content: flex-start;
-    overflow: hidden;
-    box-sizing: content-box;
-    background-color: white; 
-}
-.disclaimer h2 {
-    white-space: nowrap;
-    animation: scroll 35s infinite linear;
-    margin: 0;
-    color: black;
-}
