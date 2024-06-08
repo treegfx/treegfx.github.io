@@ -109,7 +109,8 @@ img{
     width: 100%;
     max-width: 64vh;
 }
-.socials img {
+
+.socials a img {
     float: left;
     height: 20px;
     width: 20px;
