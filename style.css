@@ -97,8 +97,11 @@ h5 {
 h3 {
     color: white;
     font-family: Inconsolata;
-    font-weight: 900;
-    animation: scroll 20s infinite linear;
+    font-weight: 600;
+    color: #737373;
+    margin-top: 6px;
+    margin-bottom: -3px;
+    /*animation: scroll 20s infinite linear;*/
 }
 
 a:link{
@@ -119,4 +122,8 @@ img{
 
 .socials {
     margin-top: -7px;
+}
+
+.e {
+    font-style: italic;
 }
