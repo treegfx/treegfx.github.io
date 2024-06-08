@@ -15,17 +15,12 @@ a:hover {
     color: white;
     background-color: transparent;
     text-decoration: underline;
-    cursor:vertical-text;
 }
 
 a:active {
     color: white;
     background-color: transparent;
     text-decoration: underline;
-}
-
-html {
-    cursor: text;
 }
 
 body {
@@ -111,4 +106,10 @@ a:link{
 img{
     width: 100%;
     max-width: 64vh;
+}
+.socials img {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
 }
