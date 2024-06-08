@@ -39,6 +39,8 @@ h2 {
     
     color: #ffffff;
     
+    margin-top: 7px;
+    
 }
 .title h1{
     line-height: 30px;
@@ -112,4 +114,8 @@ img{
     height: 20px;
     width: 20px;
     margin-left: 10px;
+}
+
+.socials {
+    margin-top: -7px;
 }
