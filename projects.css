@@ -1,0 +1,63 @@
+
+a {
+    color: green;
+    background-color: transparent;
+    text-decoration: wavy;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: wavy;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #111111;
+}
+
+h1 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 3px;
+}
+
+h2 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 7px;
+}
+h3 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #737373;
+    margin-top: -20px;
+    margin-left: 2px;
+}
+h4 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #000000;
+}
+h5 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+a:link{
+    color: white;
+}
