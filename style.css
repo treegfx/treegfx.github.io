@@ -51,15 +51,15 @@ h2 {
     font-weight: 500;
     /*background: linear-gradient(
       to right,
-      #308046,
-      #26eb5a,
-      #32a852,
-      #9cd9ac,
-      #308046
-      
+      #81bb91,
+      #91ba93,
+      #68a578,
+      #b1d2ba,
+      #8bbc99
     );*/
     background: linear-gradient(to right, #ffffff, #737373, #ffffff);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200%;
     animation: bg 2s infinite linear;
