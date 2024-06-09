@@ -151,6 +151,7 @@ img{
 .e2 {
     font-style: italic;
 }
+
 #toggle {
     display: none;
 }
@@ -158,9 +159,7 @@ img{
 #toggle:checked + #about{
     display: block;
 }
-#togglel:checked {
-    cursor: pointer;
-}
+
 #about {
     display: none;
 }
@@ -168,15 +167,35 @@ h2 label:hover{
     cursor: pointer;
     text-decoration: underline;
 }
-.projects {
-    display: none;
+#togglel:checked ~ .projects {
+    display: block;
 }
-
 #togglel {
     display: none;
-    &:checked + label + projects {
-        display: block;
-    }
+}
+#togglel:checked ~ .socials {
+    margin-top: 16px;
+}
+
+.projects {
+    display: none;
+    margin-left: 17px;
+}
+.about #about {
+    margin-left: 17px;
+}
+
+.projects a {
+    color: green;
+    background-color: transparent;
+    text-decoration: wavy;
+}
+
+.projects .motion img {
+    margin-top: 30px;
+}
+.projects .whopper img {
+    margin-top: 4px;
 }
 
 .projects a:visited {
@@ -194,10 +213,6 @@ h2 label:hover{
 .projects a:active {
     color: #999999;
     text-decoration: underline;
-}
-
-.projects body {
-    background-color: #111111;
 }
 
 .projects h1 {
@@ -240,11 +255,11 @@ h2 label:hover{
     width: 100%;
     max-width: 23vh;
 }
-.projects .whopper .title img {
+.projects .whopper .titlew img {
     height: 25px;
     width: 25px;
 }
-.projects .motion .title img {
+.projects .motion .titlem img {
     height: 25px;
     width: 25px;
     display: inline-block;
