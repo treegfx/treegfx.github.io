@@ -6,20 +6,19 @@ a {
 }
 
 a:visited {
-    color: white;
+    color: #999999;
     background-color: transparent;
     text-decoration: wavy;
 }
 
 a:hover {
-    color: white;
+    color: #999999;
     background-color: transparent;
     text-decoration: underline;
 }
 
 a:active {
-    color: white;
-    background-color: transparent;
+    color: #999999;
     text-decoration: underline;
 }
 
@@ -59,7 +58,7 @@ h5 {
 }
 
 a:link{
-    color: white;
+    color: #999999;
 }
 img{
     height: 75%;
