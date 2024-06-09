@@ -151,3 +151,17 @@ img{
 .e2 {
     font-style: italic;
 }
+#toggle {
+    display: none;
+}
+
+#toggle:checked + #about {
+    display: block;
+}
+#about {
+    display: none;
+}
+h2 label:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
