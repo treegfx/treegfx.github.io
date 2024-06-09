@@ -67,11 +67,11 @@ img{
     width: 100%;
     max-width: 23vh;
 }
-.whopper img {
+.whopper .title img {
     height: 25px;
     width: 25px;
 }
-.motion img {
+.motion .title img {
     height: 25px;
     width: 25px;
     display: inline-block;
