@@ -156,9 +156,10 @@ img{
 }
 
 #toggle:checked + #about{
-   
     display: block;
-    
+}
+#togglel:checked {
+    cursor: pointer;
 }
 #about {
     display: none;
