@@ -161,9 +161,6 @@ img{
 #togglel:checked {
     cursor: pointer;
 }
-#togglel {
-    display: none;
-}
 #about {
     display: none;
 }
@@ -175,6 +172,12 @@ h2 label:hover{
     display: none;
 }
 
+#togglel {
+    display: none;
+    &:checked + label + projects {
+        display: block;
+    }
+}
 
 .projects a:visited {
     color: #999999;
