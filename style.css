@@ -103,6 +103,28 @@ h3 {
     /*animation: scroll 20s infinite linear;*/
 }
 
+@media only screen and (max-width: 437px) { 
+    #quote { 
+      display: none;
+    } 
+    #quote2 {
+        display: contents;
+    }
+}
+
+@media only screen and (max-width: 225px) { 
+    #quote { 
+      display: none;
+    } 
+    #quote2 {
+        display: none;
+    }
+}
+
+.e2 {
+    display: none;
+}
+
 a:link{
     color: white;
 }
@@ -124,5 +146,8 @@ img{
 }
 
 .e {
+    font-style: italic;
+}
+.e2 {
     font-style: italic;
 }
