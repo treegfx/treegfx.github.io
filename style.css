@@ -161,6 +161,9 @@ img{
 #togglel:checked {
     cursor: pointer;
 }
+#togglel {
+    display: none;
+}
 #about {
     display: none;
 }
