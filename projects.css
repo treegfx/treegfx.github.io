@@ -65,9 +65,14 @@ img{
     height: 75%;
     max-height: 32vh;
     width: 100%;
-    max-width: 32vh;
+    max-width: 23vh;
 }
 .whopper img {
-    width: 100%;
-    max-width: 27vh;
+    height: 25px;
+    width: 25px;
+}
+.motion img {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
 }
