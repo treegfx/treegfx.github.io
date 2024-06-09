@@ -155,8 +155,10 @@ img{
     display: none;
 }
 
-#toggle:checked + #about {
+#toggle:checked + #about{
+   
     display: block;
+    
 }
 #about {
     display: none;
@@ -164,4 +166,79 @@ img{
 h2 label:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+.projects {
+    display: none;
+}
+
+
+.projects a:visited {
+    color: #999999;
+    background-color: transparent;
+    text-decoration: wavy;
+}
+
+.projects a:hover {
+    color: #999999;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.projects a:active {
+    color: #999999;
+    text-decoration: underline;
+}
+
+.projects body {
+    background-color: #111111;
+}
+
+.projects h1 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 3px;
+}
+
+.projects h2 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #b0b0b0;
+    margin-top: -10px;
+}
+.projects h3 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #737373;
+    margin-top: -17px;
+    /*margin-left: 2px;*/
+}
+.projects h4 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #000000;
+}
+.projects h5 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.projects a:link{
+    color: #999999;
+}
+.projects img{
+    height: 75%;
+    max-height: 32vh;
+    width: 100%;
+    max-width: 23vh;
+}
+.projects .whopper .title img {
+    height: 25px;
+    width: 25px;
+}
+.projects .motion .title img {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
 }
