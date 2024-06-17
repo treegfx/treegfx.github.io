@@ -159,7 +159,6 @@ img{
 #toggle:checked + #about{
     display: block;
 }
-
 #about {
     display: none;
 }
@@ -193,9 +192,11 @@ h2 label:hover{
 
 .projects .motion img {
     margin-top: 30px;
+    margin-left: 3px;
 }
 .projects .whopper img {
     margin-top: 4px;
+    margin-left: 3px;
 }
 
 .projects a:visited {
@@ -263,4 +264,8 @@ h2 label:hover{
     height: 25px;
     width: 25px;
     display: inline-block;
+}
+
+.projects .whopper {
+    margin-top: -10px;
 }
