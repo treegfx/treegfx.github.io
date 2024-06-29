@@ -1,0 +1,79 @@
+
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            color: #000000;
+        }
+        .container {
+            max-width: 869px;
+            text-align: center;
+        }
+        .header, .about {
+            margin: 10px 0;
+        }
+        .header-text {
+            font-size: 64px;
+            line-height: 81.66px;
+            font-weight: bold;
+        }
+        .subheader {
+            font-size: 36px;
+            color: #808080;
+            line-height: 45.94px;
+        }
+        .about {
+            background-color: #F9F9F9;
+            border-radius: 18px;
+            padding: 20px;
+            width: 90%;
+            max-width: 721px;
+        }
+        .about-text {
+            font-size: 32px;
+            line-height: 40.83px;
+        }
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1440px;
+        }
+        .topbar span {
+            color: #939393;
+            font-size: 24px;
+            line-height: 30.62px;
+        }
+        .rgb {
+            background: -webkit-linear-gradient(left, #FF0000, #FFF500, #00FF1A, #00FFFF, #0083FF, #0019FF, #FF00E5, #FF0000);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: bg 5s infinite linear;
+            background-size: 200%;
+        }
+        .blue {
+            background: -webkit-linear-gradient(90deg, #375075, #00B2FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: bg 1s infinite linear;
+            background-size: 200%;
+        }
+        @keyframes bg {
+            from {
+                background-position: 200%;
+            }
+            to {
+                background-position: 0%;
+            }
+        }
+        .about-about {
+            color: #939393;
+        }
+        .s {
+            color:#636363;
+        }
