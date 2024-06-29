@@ -1,0 +1,120 @@
+
+a {
+    color: white;
+    background-color: transparent;
+    font-style: normal;
+    font-family: Inconsolata;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    font-style: normal;
+    font-family: Inconsolata;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    font-style: normal;
+    font-family: Inconsolata;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    font-style: normal;
+    font-family: Inconsolata;
+}
+
+body {
+    background-color: #2d2d2d;
+}
+
+h1 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    
+    color: #ffffff;
+    
+    margin-top: 7px;
+    
+}
+
+@keyframes bg {
+    from {
+        background-position: 200% center;
+    }
+    to {
+        background-position: 0% center;
+    }
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+.title img {
+    float: center;
+    height: 20px;
+    width: 50px;
+}
+h4 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #000000;
+}
+h5 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #ffffff;
+}
+h3 {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 6px;
+    margin-bottom: -3px;
+    /*animation: scroll 20s infinite linear;*/
+}
+.e2 {
+    display: none;
+}
+
+a:link{
+    color: white;
+    font-style: normal;
+    font-family: Inconsolata;
+}
+
+img{
+    width: 100%;
+    max-width: 64vh;
+}
+
+.socials a img {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.socials {
+    margin-top: 5px;
+}
+
+.e {
+    font-style: italic;
+    margin-top: 10px;
+}
