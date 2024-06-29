@@ -17,12 +17,16 @@
         .header, .about {
             margin: 10px 0;
         }
+        .header img {
+            width: 25px;
+            
+        }
         .header-text {
             font-size: 64px;
             line-height: 81.66px;
             font-weight: bold;
         }
-        .subheader {
+        .git {
             font-size: 36px;
             color: #808080;
             line-height: 45.94px;
@@ -75,5 +79,21 @@
             color: #939393;
         }
         .s {
-            color:#636363;
+            color:#7e7e7e;
+        }
+
+        .socials a img {
+            float: left;
+            height: 20px;
+            width: 20px;
+            margin-left: 10px;
+        }
+        
+        .socials {
+            margin-left: 50%;
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 20px;
         }
