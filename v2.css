@@ -36,9 +36,11 @@
             border-radius: 18px;
             padding: 0px;
             width: 100%;
+            height: 45%;
             max-width: 721px;
         }
         .about-text {
+            padding-top: 1%;
             font-size: 32px;
             line-height: 40.83px;
         }
