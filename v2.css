@@ -58,6 +58,7 @@
         .rgb {
             background: -webkit-linear-gradient(left, #FF0000, #FFF500, #00FF1A, #00FFFF, #0083FF, #0019FF, #FF00E5, #FF0000);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: bg 5s infinite linear;
             background-size: 200%;
@@ -65,6 +66,7 @@
         .blue {
             background: -webkit-linear-gradient(90deg, #375075, #00B2FF);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: bg 1s infinite linear;
             background-size: 200%;
