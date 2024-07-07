@@ -104,3 +104,20 @@
         .underline {
             text-decoration: underline;
         }
+
+        @media only screen and (max-width: 437px) { 
+            #quote { 
+              display: none;
+            } 
+            #quote2 {
+                display: contents;
+            }
+        }
+        
+        @media only screen and (max-width: 610px) { 
+            .header-text {
+                font-size: 32px;
+                line-height: 40.5px;
+                font-weight: bold;
+            }
+        }
