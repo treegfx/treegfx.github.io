@@ -1,0 +1,17 @@
+@import url("https://whopper-cdn.pages.dev/Lostar.ttf");
+@import url("https://whopper-cdn.pages.dev/SFPRODISPLAYREGULAR.OTF");
+body {
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: -webkit-fill-available;
+}
+html {
+    height: -webkit-fill-available;
+}
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, \"SF Pro Display\", sans-serif;
+    color: #ffe600;
+}
